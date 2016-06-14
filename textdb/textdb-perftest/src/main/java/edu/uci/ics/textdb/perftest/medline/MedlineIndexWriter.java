@@ -22,7 +22,7 @@ public class MedlineIndexWriter {
 	 * Write medline records from "medlineFilePath"
 	 * to index in "indexPath".
 	 */
-	public static void writeMedlineToIndex(
+	public static void writeMedlineIndex(
 			String filePath, IDataStore dataStore, Analyzer luceneAnalyzer) 
 			throws FileNotFoundException, StorageException {
 		writeMedlineToIndex(filePath, dataStore, luceneAnalyzer, Integer.MAX_VALUE);
